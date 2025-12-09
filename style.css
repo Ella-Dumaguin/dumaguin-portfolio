@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* LOGIN PAGE */
+#loginPage {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    color: white;
+    flex-direction: column;
+}
+
+#loginBox {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px black;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4B79A1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #35516B;
+}
+
+.error {
+    color: red;
+}
+
+/* NAVIGATION */
+nav {
+    background: #008080;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: pink;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CONTENT CARDS */
+section {
+    padding: 40px;
+}
+
+.card {
+    .project {
+    margin-bottom: 30px;
+}
+
+.project-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 8px #ccc;
+}
